@@ -7,8 +7,10 @@ const AboutMe = () => {
     return(
         <div>
            <div className='about-me'>
-        <h1>About Me</h1>
-        <img src={profileImage} id='profile-image'/>
+        <h1 id='aboutme-title'>About Me</h1>
+        <a title="Click here to view my Instagram page" href="https://www.instagram.com/jeeeeppeee/" target="_blank" id='nav-links'>
+            <img src={profileImage} id='profile-image'/>
+        </a>
         <div className='description'>
             <p>
                 My name is Junnel R. Padilla, and i was born in the Philippines. I am a Junior Software Developer, and a Pharmacy Technician as well. Having both knowledge with website development and medication really opens up lots of ideas of how i can incorporate both my profession.

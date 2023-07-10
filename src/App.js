@@ -63,6 +63,11 @@ function App() {
       {showContact && <ContactMe />}
       {showResume && <MyResume />}
       
+      <footer className='footer'>
+        <h3>
+            &copy; Made By Junnel R. Padilla
+        </h3>
+      </footer>
     </div>
   );
 }
