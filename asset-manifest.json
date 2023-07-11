@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/project_portfolio-R-/static/css/main.12d191c9.css",
+    "main.js": "/project_portfolio-R-/static/js/main.5b487afb.js",
+    "static/media/note-pad.gif": "/project_portfolio-R-/static/media/note-pad.190f1ce533140f1c6080.gif",
+    "static/media/weather-thumbnail.jpg": "/project_portfolio-R-/static/media/weather-thumbnail.565bc1c80a63903eef42.jpg",
+    "static/media/pokemon-thumbnail1.gif": "/project_portfolio-R-/static/media/pokemon-thumbnail1.44dcc8afac4ed9548a20.gif",
+    "static/media/game-thumbnail.gif": "/project_portfolio-R-/static/media/game-thumbnail.6b296be7402d5426d0da.gif",
+    "static/media/portfolio-thumb.gif": "/project_portfolio-R-/static/media/portfolio-thumb.fd5fe844b5b88a26ed35.gif",
+    "static/media/dirty-food.gif": "/project_portfolio-R-/static/media/dirty-food.27729bcf751aa5accd12.gif",
+    "static/media/blog-spot.gif": "/project_portfolio-R-/static/media/blog-spot.f0b200148c9e739f9001.gif",
+    "static/media/horiseon-thumb.gif": "/project_portfolio-R-/static/media/horiseon-thumb.c9e0be8dc25aacd89b30.gif",
+    "static/media/profile-pic2.jpg": "/project_portfolio-R-/static/media/profile-pic2.841893956d06586b2673.jpg",
+    "static/media/resume.png": "/project_portfolio-R-/static/media/resume.951257a4326ff5078161.png",
+    "static/media/password-gen.gif": "/project_portfolio-R-/static/media/password-gen.171ab0bd87aea9749090.gif",
+    "static/media/event-scheduler.gif": "/project_portfolio-R-/static/media/event-scheduler.70b5053d616db7585105.gif",
+    "static/media/header-sample.jpg": "/project_portfolio-R-/static/media/header-sample.0eaf21016f0e097690a7.jpg",
+    "index.html": "/project_portfolio-R-/index.html",
+    "main.12d191c9.css.map": "/project_portfolio-R-/static/css/main.12d191c9.css.map",
+    "main.5b487afb.js.map": "/project_portfolio-R-/static/js/main.5b487afb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12d191c9.css",
+    "static/js/main.5b487afb.js"
+  ]
+}
