@@ -30,6 +30,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Dirty Foods</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Dirty Foods</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/Dirty_Food_Project" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Awesome Geckos</h3>
                             </div>
                         </a>
@@ -40,6 +43,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Arcade Rater</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Arcade Rater</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/ArcadeRater" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Arcade Raters </h3>
                             </div>
                         </a>
@@ -51,6 +57,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Software Engineer Blogspot</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Software Engineer Blogspot</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/e_SoftEn_blogspot" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -61,6 +70,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Key Notes</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Key Notes</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/key_notes" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -71,6 +83,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Weather Patrol</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Weather Patrol</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/weather-patrol" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -81,6 +96,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Event Scheduler</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Event Scheduler</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/schedule-organizer" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -91,6 +109,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Pokemon Quiz</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Pokemon Quiz</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/poke-quiz" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -101,6 +122,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Password Generator</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Password Generator</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/gen-pass" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -111,6 +135,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Work Porfolio (Original Design)</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Work Porfolio (Original Design)</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/work-portfolio" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>
@@ -121,6 +148,9 @@ const MoreProjectThings = () => {
                             <div className='web-title'>Horiseon Web (Refactoring)</div>
                             <div id='hover-background'>
                                 <div className='web-title1'>Horiseon Web (Refactoring)</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/horiseon-webpage" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
                                 <h3>&copy; Made By Junnel R. Padilla</h3>
                             </div>
                         </a>

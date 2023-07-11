@@ -1,47 +1,71 @@
+import React, { useState } from 'react';
 import githubIcon from './images/github-icon.png';
 import linkedIn from './images/linkedin-icon.png';
 import slackIcon from './images/slack-icon.png';
 
 const ContactMe = () => {
-    return(
-        <div>
-            <div className='contact-me'>
-                <h1>Contact Me</h1>
-                <form className='contact-form'>
-                    <p id='name'>Name:</p>
-                    <input type='text' id='name-input' placeholder='Type Here......'/>
+  const [message, setMessage] = useState('');
+  const [isMessageEmpty, setIsMessageEmpty] = useState(false);
 
-                    <p id='email'>Email Address:</p>
-                    <input type='email' id='email-input' placeholder='Type Here......' required/>
+  const handleBlur = () => {
+    setIsMessageEmpty(message.trim() === '');
+  };
 
-                    <p id='email-error' className='error-message'></p>
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
-                    <p id='message'>Message:</p>
-                    <textarea type='text' id='message-input' placeholder='Type Here......' required pattern=".+" title="Please enter a message"/>
+    if (message.trim() === '') {
+      setIsMessageEmpty(true);
+      return;
+    }
+  };
 
-                    <p></p>
-                    <button type='submit' id='submit-button'>Submit</button>
-                </form>
+  return (
+    <div>
+      <div className='contact-me'>
+        <h1>Contact Me</h1>
+        <form className='contact-form' onSubmit={handleSubmit}>
+          <p id='name'>Name:</p>
+          <input type='text' id='name-input' placeholder='Type Here......'/>
 
-                <div className='icon-links'>
-                    <a className="profile-links" href="https://github.com/jayP308" target="_blank">
-                        <img id="icons" src={githubIcon} />
-                        <p id="icon-title">Github</p>
-                    </a>
-                    <a className="profile-links" href="https://www.linkedin.com/in/jp-padilla-038854251/" target="_blank">
-                        <img id="icons" src={linkedIn} />
-                        <p id="icon-title">LinkedIn</p>
-                    </a>
-                    <a className="profile-links" href="https://app.slack.com/client/T04E091KMGD/D04M19YEU1L/rimeto_profile/U04LSF3AG1Z" target="_blank">
-                        <img id="icons" src={slackIcon} />
-                        <p id="icon-title">Slacks</p>
-                    </a>
-                </div>
-            </div>
+          <p id='email'>Email Address:</p>
+          <input type='email' id='email-input' placeholder='Type Here......' required/>
 
-    
+          <p id='email-error' className='error-message'></p>
+
+          <p id='message'>Message:</p>
+          <textarea
+            type='text'
+            id='message-input'
+            placeholder='Type Here......'
+            required
+            onBlur={handleBlur}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+
+          {isMessageEmpty && <p className='error-message'>Message cannot be empty</p>}
+
+          <p></p>
+          <button type='submit' id='submit-button'>Submit</button>
+        </form>
+
+        <div className='icon-links'>
+          <a className='profile-links' href='https://github.com/jayP308' target='_blank'>
+            <img id='icons' src={githubIcon} />
+            <p id='icon-title'>Github</p>
+          </a>
+          <a className='profile-links' href='https://www.linkedin.com/in/jp-padilla-038854251/' target='_blank'>
+            <img id='icons' src={linkedIn} />
+            <p id='icon-title'>LinkedIn</p>
+          </a>
+          <a className='profile-links' href='https://app.slack.com/client/T04E091KMGD/D04M19YEU1L/rimeto_profile/U04LSF3AG1Z' target='_blank'>
+            <img id='icons' src={slackIcon} />
+            <p id='icon-title'>Slacks</p>
+          </a>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default ContactMe;

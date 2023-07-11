@@ -29,6 +29,9 @@ const ProjectsThings = () => {
                         <div className='web-title'>Software Engineer Blogspot</div>
                         <div id='hover-background'>
                             <div className='web-title1'>Software Engineer Blogspot</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/e_SoftEn_blogspot" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
                             <h3>&copy; Made By Junnel R. Padilla</h3>
                         </div>
                     </a>
@@ -39,6 +42,9 @@ const ProjectsThings = () => {
                         <div className='web-title'>Key Notes</div>
                         <div id='hover-background'>
                             <div className='web-title1'>Key Notes</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/key_notes" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
                             <h3>&copy; Made By Junnel R. Padilla</h3>
                         </div>
                     </a>
@@ -49,6 +55,9 @@ const ProjectsThings = () => {
                         <div className='web-title'>Dirty Foods</div>
                         <div id='hover-background'>
                             <div className='web-title1'>Dirty Foods</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/Dirty_Food_Project" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
                             <h3>&copy; Made By Awesome Geckos</h3>
                         </div>
                     </a>
@@ -59,6 +68,9 @@ const ProjectsThings = () => {
                         <div className='web-title'>Arcade Rater</div>
                         <div id='hover-background'>
                             <div className='web-title1'>Arcade Rater</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/ArcadeRater" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
                             <h3>&copy; Made By Arcade Raters </h3>
                         </div>
                     </a>
@@ -69,6 +81,9 @@ const ProjectsThings = () => {
                         <div className='web-title'>Weather Patrol</div>
                         <div id='hover-background'>
                             <div className='web-title1'>Weather Patrol</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/weather-patrol" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
                             <h3>&copy; Made By Junnel R. Padilla</h3>
                         </div>
                     </a>
@@ -79,6 +94,9 @@ const ProjectsThings = () => {
                         <div className='web-title'>Event Scheduler</div>
                         <div id='hover-background'>
                             <div className='web-title1'>Event Scheduler</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/schedule-organizer" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
                             <h3>&copy; Made By Junnel R. Padilla</h3>
                         </div>
                     </a>

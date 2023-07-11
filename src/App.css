@@ -45,6 +45,12 @@ h1 {
   color: rgb(88, 86, 48);
 }
 
+#active-nav-link {
+  border: none;
+  text-decoration: underline;
+  color: rgb(185, 175, 62);
+}
+
 #nav-links1 {
   display:flex;
   justify-content: left;
@@ -104,12 +110,23 @@ a {
   border: none;
 }
 
+.profile-links1 {
+  display: inline-flex;
+  margin-top: 15px;
+  border: none;
+}
+
 #icons {
   max-height: 50px;
 }
 
-#icons:hover {
-  max-height: 75px;
+#icons1 {
+  height: 50px;
+}
+
+
+#icons:hover, #icons1:hover  {
+  height: 70px;
 }
 
 #icon-title {
