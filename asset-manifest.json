@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project_portfolio-R-/static/css/main.12d191c9.css",
-    "main.js": "/project_portfolio-R-/static/js/main.5b487afb.js",
+    "main.css": "/project_portfolio-R-/static/css/main.c2400fc8.css",
+    "main.js": "/project_portfolio-R-/static/js/main.4d92cabc.js",
     "static/media/note-pad.gif": "/project_portfolio-R-/static/media/note-pad.190f1ce533140f1c6080.gif",
     "static/media/weather-thumbnail.jpg": "/project_portfolio-R-/static/media/weather-thumbnail.565bc1c80a63903eef42.jpg",
     "static/media/pokemon-thumbnail1.gif": "/project_portfolio-R-/static/media/pokemon-thumbnail1.44dcc8afac4ed9548a20.gif",
@@ -16,11 +16,11 @@
     "static/media/event-scheduler.gif": "/project_portfolio-R-/static/media/event-scheduler.70b5053d616db7585105.gif",
     "static/media/header-sample.jpg": "/project_portfolio-R-/static/media/header-sample.0eaf21016f0e097690a7.jpg",
     "index.html": "/project_portfolio-R-/index.html",
-    "main.12d191c9.css.map": "/project_portfolio-R-/static/css/main.12d191c9.css.map",
-    "main.5b487afb.js.map": "/project_portfolio-R-/static/js/main.5b487afb.js.map"
+    "main.c2400fc8.css.map": "/project_portfolio-R-/static/css/main.c2400fc8.css.map",
+    "main.4d92cabc.js.map": "/project_portfolio-R-/static/js/main.4d92cabc.js.map"
   },
   "entrypoints": [
-    "static/css/main.12d191c9.css",
-    "static/js/main.5b487afb.js"
+    "static/css/main.c2400fc8.css",
+    "static/js/main.4d92cabc.js"
   ]
 }
