@@ -125,20 +125,11 @@ text-align: center;
 }
 
 #download-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: 0 auto;
   border: none;
   text-decoration: underline;
 }
 
 #download-button:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   border: none;
   text-decoration: underline;
   color: red;
@@ -214,6 +205,27 @@ text-align: center;
 #table-contents {
   display: block;
   border: none;
+}
+
+#name, #email, #message {
+  font-size: 20px;
+}
+
+#name-input, #email-input {
+  width: 40%;
+  font-size: 20px;
+}
+
+#message-input {
+  width: 40%;
+  resize: none;
+  padding-bottom: 200px;
+  font-size: 20px;
+}
+
+#submit-button {
+  font-size: 20px;
+  padding: 10px;
 }
 
 .footer {

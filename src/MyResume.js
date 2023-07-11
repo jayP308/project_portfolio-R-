@@ -8,9 +8,27 @@ const MyResume = () => {
         <div>
             <div className='my-resume'>
                 <h1>Resume</h1>
-                <a id='download-button' title="Click here to download Resume" href={resumeImage} target="_blank" download>Click Here to download</a>
-                <img src={resumeImage} id='resume-page' />
-
+                <a id='download-button' title="Click here to download Resume" href={resumeImage} target="_blank" download>Click Here to download my resume!</a>
+                <h2>Front-end Proficiency</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>JQuery</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>Materialized</li>
+                    <li>SweetAlert2</li>
+                </ul>
+                <h2>Back-end Proficiency</h2>
+                <ul>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MySQL</li>
+                    <li>Sequelize</li>
+                    <li>API's</li>
+                    <li>Express-Sessions</li>
+                </ul>
                 <div className='icon-links'>
                     <a className="profile-links" href="https://github.com/jayP308" target="_blank">
                         <img id="icons" src={githubIcon} />

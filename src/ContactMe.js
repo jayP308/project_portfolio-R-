@@ -7,6 +7,22 @@ const ContactMe = () => {
         <div>
             <div className='contact-me'>
                 <h1>Contact Me</h1>
+                <form className='contact-form'>
+                    <p id='name'>Name:</p>
+                    <input type='text' id='name-input' placeholder='Type Here......'/>
+
+                    <p id='email'>Email Address:</p>
+                    <input type='email' id='email-input' placeholder='Type Here......' required/>
+
+                    <p id='email-error' className='error-message'></p>
+
+                    <p id='message'>Message:</p>
+                    <textarea type='text' id='message-input' placeholder='Type Here......' required pattern=".+" title="Please enter a message"/>
+
+                    <p></p>
+                    <button type='submit' id='submit-button'>Submit</button>
+                </form>
+
                 <div className='icon-links'>
                     <a className="profile-links" href="https://github.com/jayP308" target="_blank">
                         <img id="icons" src={githubIcon} />

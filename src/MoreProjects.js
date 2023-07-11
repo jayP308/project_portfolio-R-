@@ -21,7 +21,7 @@ const MoreProjectThings = () => {
                     <h1>Table Of Contents</h1>
                         <a href='#group-projects' id='nav-links1's>Group Projects</a>
                         <a href='#individual-projects' id='nav-links1'>Individual Projects</a>
-                        <a href='#backend-projects' id='nav-links1'>Back-End Projects</a>
+                        <a href='#contact-information' id='nav-links1'>Connect with me</a>
     
                     <h1 id='group-projects'>Group Projects</h1>
                     <div className='project-container'>
@@ -125,9 +125,8 @@ const MoreProjectThings = () => {
                             </div>
                         </a>
                     </div>
-                    <h1 id='backend-projects'>Back-End Projects</h1>
                 </div>
-                <div className='icon-links'>
+                <div className='icon-links' id='contact-information'>
                     <a className="profile-links" href="https://github.com/jayP308" target="_blank">
                         <img id="icons" src={githubIcon} />
                         <p id="icon-title">Github</p>
