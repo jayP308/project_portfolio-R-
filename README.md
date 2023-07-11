@@ -19,7 +19,14 @@ This app includes a landing page where information about me will be displayed, a
 
 
 ## Screenshots
+About Me
+<img src='./src/images/screenshot3.png'/>
 
+Portfolio
+<img src='./src/images/screenshot1.png'/>
+
+Contact Page
+<img src='./src/images/screenshot2.png'/>
 
 ## Contributors
 Junnel R. Padilla, UC Berkeley Bootcamp Modules
