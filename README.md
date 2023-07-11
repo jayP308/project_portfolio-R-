@@ -16,7 +16,7 @@ This apps purpose to store projects, contact information, resume and a descripti
 This app includes a landing page where information about me will be displayed, as well as a separate page for portfolio which will include my projects. This will also include a contact page where all my social media, linkedIn accounts will be stored and finally a resume page that is available for download.
   
 ## URL 
-
+https://jayp308.github.io/project_portfolio-R-/
 
 ## Screenshots
 About Me
