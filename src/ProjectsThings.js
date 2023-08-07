@@ -1,4 +1,5 @@
 import weatherThumb from './images/weather-thumbnail.jpg';
+import alumniBooksThumb from './images/alumni-book.gif';
 import eventThumb from './images/event-scheduler.gif';
 import gameThumb from './images/game-thumbnail.gif';
 import FoodThumb from './images/dirty-food.gif';
@@ -23,6 +24,21 @@ const ProjectsThings = () => {
             {!showMoreProjects && (
             <div className='my-projects'>
                 <h1>Project Highlights</h1>
+
+                <div className='project-container'>
+                    <a href="https://alumni-book-app-cae10c9784e0.herokuapp.com/" target="_blank" className='web-link'>
+                        <img src={alumniBooksThumb} id='project-images'/>
+                        <div className='web-title'>Alumni Books</div>
+                        <div id='hover-background'>
+                            <div className='web-title1'>Alumni Books</div>
+                            <a className="profile-links1" href="https://github.com/jayP308/Alumni-Books" target="_blank">
+                                <img id="icons1" src={githubIcon} />
+                            </a>
+                            <h3>&copy; Made By Alumni Books</h3>
+                        </div>
+                    </a>
+                </div>
+
                 <div className='project-container'>
                     <a href="https://software-engineer-blogspot-48f56e664ad0.herokuapp.com/" target="_blank" className='web-link'>
                         <img src={blogThumb} id='project-images'/>
@@ -82,19 +98,6 @@ const ProjectsThings = () => {
                         <div id='hover-background'>
                             <div className='web-title1'>Weather Patrol</div>
                             <a className="profile-links1" href="https://github.com/jayP308/weather-patrol" target="_blank">
-                                <img id="icons1" src={githubIcon} />
-                            </a>
-                            <h3>&copy; Made By Junnel R. Padilla</h3>
-                        </div>
-                    </a>
-                </div>
-                <div className='project-container'>
-                    <a href="https://jayp308.github.io/schedule-organizer/" target="_blank" className='web-link'>
-                        <img src={eventThumb} id='project-images'/>
-                        <div className='web-title'>Event Scheduler</div>
-                        <div id='hover-background'>
-                            <div className='web-title1'>Event Scheduler</div>
-                            <a className="profile-links1" href="https://github.com/jayP308/schedule-organizer" target="_blank">
                                 <img id="icons1" src={githubIcon} />
                             </a>
                             <h3>&copy; Made By Junnel R. Padilla</h3>

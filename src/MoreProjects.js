@@ -1,4 +1,6 @@
-import projectImage1 from './images/profile-pic2.jpg'
+import projectImage1 from './images/profile-pic2.jpg';
+import alumniBooksThumb from './images/alumni-book.gif';
+import bookSearchThumb from './images/book-search.gif';
 import weatherThumb from './images/weather-thumbnail.jpg';
 import eventThumb from './images/event-scheduler.gif';
 import gameThumb from './images/game-thumbnail.gif';
@@ -24,6 +26,21 @@ const MoreProjectThings = () => {
                         <a href='#contact-information' id='nav-links1'>Connect with me</a>
     
                     <h1 id='group-projects'>Group Projects</h1>
+
+                    <div className='project-container'>
+                        <a href="https://alumni-book-app-cae10c9784e0.herokuapp.com/" target="_blank" className='web-link'>
+                            <img src={alumniBooksThumb} id='project-images'/>
+                            <div className='web-title'>Alumni Books</div>
+                            <div id='hover-background'>
+                                <div className='web-title1'>Alumni Books</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/Alumni-Books" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
+                                <h3>&copy; Made By Alumni Books</h3>
+                            </div>
+                        </a>
+                    </div>
+
                     <div className='project-container'>
                         <a href="https://jayp308.github.io/Dirty_Food_Project/" target="_blank" className='web-link'>
                             <img src={FoodThumb} id='project-images'/>
@@ -64,6 +81,21 @@ const MoreProjectThings = () => {
                             </div>
                         </a>
                     </div>
+
+                    <div className='project-container'>
+                        <a href="https://book-search-applicat-da020dda03be.herokuapp.com/" target="_blank" className='web-link'>
+                            <img src={bookSearchThumb} id='project-images'/>
+                            <div className='web-title'>Book Search</div>
+                            <div id='hover-background'>
+                                <div className='web-title1'>Book Search</div>
+                                <a className="profile-links1" href="https://github.com/jayP308/Book_Searching" target="_blank">
+                                    <img id="icons1" src={githubIcon} />
+                                </a>
+                                <h3>&copy; Made By Junnel R. Padilla</h3>
+                            </div>
+                        </a>
+                    </div>
+
                     <div className='project-container'>
                         <a href="https://key-notes-01-19b3cfa09fb4.herokuapp.com/" target="_blank" className='web-link'>
                             <img src={notesThumb} id='project-images'/>
