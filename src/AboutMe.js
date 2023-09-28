@@ -1,5 +1,5 @@
-import profileImage from './images/linkedin-photo4.jpeg';
 import githubIcon from './images/github-icon.png';
+import profileImage from './images/linkedin-photo4.jpeg';
 import linkedIn from './images/linkedin-icon.png';
 import slackIcon from './images/slack-icon.png';
 
