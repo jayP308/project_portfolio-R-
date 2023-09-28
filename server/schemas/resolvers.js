@@ -3,7 +3,7 @@ const {Contact} = require("../model");
 const resolvers = {
 
     Query: {
-        fetchTodos: async () => {
+        fetchContact: async () => {
             return await Contact.find();
         },
     },

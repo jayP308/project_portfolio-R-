@@ -1,14 +1,11 @@
-const {gql} = require("apollo-server-express");
+const { gql }  = require("apollo-server-express");
 
 const typeDefs = gql`
 
     type Contact {
         _id: ID
         name: String
-        email: {
-            type: email
-            default: "example@email.com"
-        }
+        email: String
         message: String
     }
 

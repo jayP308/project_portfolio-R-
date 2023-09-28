@@ -3,9 +3,11 @@ const {Schema, model} = require('mongoose');
 const ContactMe = new Schema ({ 
     name: String,
     email: {
-        type: email,
-        default: 'example@email.com'
-    },
+        type: String,
+        required: true,
+        unique: true,
+        match: [/.+@.+\..+/, 'Must match an email address!'],
+      },
     message: String,
 })
 
